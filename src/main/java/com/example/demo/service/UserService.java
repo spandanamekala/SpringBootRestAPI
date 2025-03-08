@@ -41,7 +41,7 @@ public class UserService {
     public User getUser(Long id) {
         for(User user : users)
         {
-            if (user.getUserId().equals(id)) {
+            if (user.getId().equals(id)) {
                 return user;  // Return the whole user object
             }
         }

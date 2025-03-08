@@ -4,7 +4,10 @@ public class User {
 
     String name;
     String status;
-    Long userId;
+
+
+
+    Long id;
 
 
     public String getName() {
@@ -13,6 +16,13 @@ public class User {
 
     public void setName(String name) {
         this.name = name;
+    }
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public String getStatus() {
@@ -23,11 +33,5 @@ public class User {
         this.status = status;
     }
 
-    public Long getUserId() {
-        return userId;
-    }
 
-    public void setUserId(Long userId) {
-        this.userId = userId;
-    }
 }
